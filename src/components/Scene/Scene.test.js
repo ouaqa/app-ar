@@ -1,10 +1,10 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import Scene from './Scene'
+import HelloScene from './HelloScene'
 
-describe('<Scene/>', () => {
+describe('<HelloScene/>', () => {
   it('renders without crashing', () => {
-    shallow(<Scene />, {})
+    shallow(<HelloScene />, {})
   })
 })
